@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:tugas_akhir_mobile/common/theme_helper.dart';
-import 'profile_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -71,6 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                                     ThemeHelper().buttonBoxDecoration(context),
                                 child: ElevatedButton(
                                   style: ThemeHelper().buttonStyle(),
+                                  onPressed: () {},
                                   child: Padding(
                                     padding:
                                         EdgeInsets.fromLTRB(40, 10, 40, 10),
@@ -82,14 +82,6 @@ class _LoginPageState extends State<LoginPage> {
                                           color: Colors.white),
                                     ),
                                   ),
-                                  onPressed: () {
-                                    //After successful login we will redirect to profile page. Let's create profile page now
-                                    Navigator.pushReplacement(
-                                        context,
-                                        MaterialPageRoute(
-                                            builder: (context) =>
-                                                ProfilePage()));
-                                  },
                                 ),
                               ),
                             ],

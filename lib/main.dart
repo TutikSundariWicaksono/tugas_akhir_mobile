@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import 'pages/splash_screen.dart';
+
 void main() {
   runApp(LoginUiApp());
 }
@@ -31,6 +33,7 @@ class LoginUiApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey.shade100,
         primarySwatch: Colors.grey,
       ),
+      home: SplashScreen(title: 'ASIK'),
     );
   }
 }

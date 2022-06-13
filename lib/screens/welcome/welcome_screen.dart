@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:tugas_akhir_mobile/constants.dart';
+import 'package:tugas_akhir_mobile/screens/quiz/quiz_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   Color mainColor = Color(0xFF252c4a);
@@ -40,7 +41,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                   Spacer(),
                   InkWell(
-                    // onTap:() => Get.to(QuizScreen()),
+                    onTap: () => Get.to(QuizScreen()),
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
@@ -50,7 +51,7 @@ class WelcomeScreen extends StatelessWidget {
                         borderRadius: BorderRadius.all(Radius.circular(12)),
                       ),
                       child: Text(
-                        "Let's Play Quiz",
+                        "Let's Start Quiz",
                         style: Theme.of(context)
                             .textTheme
                             .button

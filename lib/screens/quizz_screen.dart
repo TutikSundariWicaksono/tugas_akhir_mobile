@@ -1,10 +1,9 @@
-import 'package:dcode/data/questions_list.dart';
-import 'package:dcode/ui/shared/color.dart';
+import 'package:tugas_akhir_mobile/data/questions_list.dart';
+import 'package:tugas_akhir_mobile/ui/shared/color.dart';
 import 'package:flutter/material.dart';
-import 'package:dcode/screens/result_screen.dart';
-import 'package:dcode/widgets/quizz_widget.dart';
-import 'package:dcode/model/question_model.dart';
-
+import 'package:tugas_akhir_mobile/screens/result_screen.dart';
+import 'package:tugas_akhir_mobile/widgets/quizz_widget.dart';
+import 'package:tugas_akhir_mobile/model/question_model.dart';
 
 class QuizzScreen extends StatefulWidget {
   const QuizzScreen({Key? key}) : super(key: key);
@@ -22,7 +21,6 @@ class _QuizzScreenState extends State<QuizzScreen> {
   bool answered = false;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _controller = PageController(initialPage: 0);
   }
@@ -96,10 +94,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
                           : AppColor.secondaryColor,
                       onPressed: !answered
                           ? () {
-                              if (questions[index]
-                                  .answer!
-                                  .values
-                                  .toList()[i]) {
+                              if (questions[index].answer!.values.toList()[i]) {
                                 score++;
                                 print("yes");
                               } else {

@@ -1,18 +1,27 @@
+<<<<<<< HEAD
 import 'package:tugas_akhir_mobile/screens/quizz_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:tugas_akhir_mobile/ui/shared/color.dart';
+=======
+import 'package:flutter/material.dart';
+>>>>>>> 6e10d2f9396cb6bebc96a6e1422a3f2da9cf555a
 
 class MainMenu extends StatefulWidget {
   const MainMenu({Key? key}) : super(key: key);
 
   @override
+<<<<<<< HEAD
   _MainMenuState createState() => _MainMenuState();
+=======
+  State<MainMenu> createState() => _MainMenuState();
+>>>>>>> 6e10d2f9396cb6bebc96a6e1422a3f2da9cf555a
 }
 
 class _MainMenuState extends State<MainMenu> {
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Scaffold(
       backgroundColor: AppColor.primaryColor,
       body: Padding(
@@ -95,5 +104,8 @@ class _MainMenuState extends State<MainMenu> {
         ),
       ),
     );
+=======
+    return Container();
+>>>>>>> 6e10d2f9396cb6bebc96a6e1422a3f2da9cf555a
   }
 }

@@ -1,4 +1,4 @@
-import 'package:dcode/model/question_model.dart';
+import 'package:tugas_akhir_mobile/model/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(

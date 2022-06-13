@@ -1,7 +1,7 @@
-import 'package:dcode/screens/quizz_screen.dart';
+import 'package:tugas_akhir_mobile/screens/quizz_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import '../ui/shared/color.dart';
+import 'package:tugas_akhir_mobile/ui/shared/color.dart';
 
 class MainMenu extends StatefulWidget {
   const MainMenu({Key? key}) : super(key: key);
@@ -29,7 +29,7 @@ class _MainMenuState extends State<MainMenu> {
             ),
             const Center(
               child: Text(
-                "Quizz App",
+                "Simple Quizz App",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 48,
@@ -71,7 +71,7 @@ class _MainMenuState extends State<MainMenu> {
                     padding:
                         EdgeInsets.symmetric(vertical: 12.0, horizontal: 24.0),
                     child: Text(
-                      "Start the Quizz",
+                      "Start Quiz",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 26.0,

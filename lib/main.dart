@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:tugas_akhir_mobile/screens/welcome/welcome_screen.dart';
+import 'package:tugas_akhir_mobile/screens/main_menu.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: 'Simple Quiz App',
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      home: WelcomeScreen(),
+      home: const MainMenu(),
     );
   }
 }

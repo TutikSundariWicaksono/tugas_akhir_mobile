@@ -2,48 +2,48 @@ import 'package:tugas_akhir_mobile/model/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(
-    "How Many Whiskers does the average cat have on each side of its face ?",
+    "Flutter merupakan framework yang bersifat...",
     {
-      "1": false,
-      "3": false,
-      "12": true,
-      "5,007": false,
+      "Close Source": false,
+      "Berbayar": false,
+      "Open Source": true,
+      "Berlisensi": false,
     },
   ),
   QuestionModel(
-    "When does a cat purr ?",
+    "Fitur yang beradadi flutter dimana kodingan kamu bisa langsung muncul di hp maupun di emulator disebut...",
     {
-      "When it cares for its kittens": false,
-      "When it needs confort": false,
-      "When it feels content": false,
-      "All of the above": true,
+      "Refresh": false,
+      "Reload": false,
+      "Hot Loading": false,
+      "Hot Reload": true,
     },
   ),
   QuestionModel(
-    "What is the averge nulber of kittens in a litter ?",
+    "Widget dinamis yang terdapat pada Flutter disebut ?",
     {
-      "1 to 2": false,
-      "3 to 5": true,
-      "8 to 10": false,
-      "12 to 14": false,
+      "Container": false,
+      "StateFull Widget": true,
+      "Stateless Widget": false,
+      "Material App": false,
     },
   ),
   QuestionModel(
-    "How many moons does Mars have ?",
+    "Merupakan sebuah widget yang digunakkan untuk membuat tampilan dasar material design pada aplikasi Flutter, dapat disebut juga sebagai dasar sebuah halaman pada aplikasi Flutter...",
     {
-      "1": false,
-      "2": false,
-      "4": true,
-      "8": false,
+      "Material Apps": false,
+      "Stateless Widget": false,
+      "Scaffold": true,
+      "AppBar": false,
     },
   ),
   QuestionModel(
-    "What is Mars's nickname ?",
+    "Manakah dari properti berikut ini yang harus digunakkan untuk menambahkan label, ikon, dan teks petunjuk sebaris widget TextField...",
     {
-      "The red planet": true,
-      "The dusty planet": false,
-      "The hot planet": false,
-      "The smelly planet": false,
+      "InputDecoration": true,
+      "ListView": false,
+      "SizedBox": false,
+      "Scaffold": false,
     },
   ),
   QuestionModel(

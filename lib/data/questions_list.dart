@@ -2,48 +2,58 @@ import 'package:tugas_akhir_mobile/model/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(
-    "How Many Whiskers does the average cat have on each side of its face ?",
+    "Berikut ini pernyataan yang benar berhubungan dengan class dan object dalam Java, kecuali…",
     {
-      "1": false,
-      "3": false,
-      "12": true,
-      "5,007": false,
+      "Setiap class dapat mengandung beberapa method sekaligus": false,
+      "Object terdiri dari keyword dan method": false,
+      "Object merupakan instance dari class": true,
+      "Class merupakan pendefinisian dari object": false,
     },
   ),
   QuestionModel(
-    "When does a cat purr ?",
+    "Berikut ini adalah pernyataan yang benar berhubungan dengan break dan continue, kecuali…",
     {
-      "When it cares for its kittens": false,
-      "When it needs confort": false,
-      "When it feels content": false,
-      "All of the above": true,
+      "Break digunakan untuk keluar dari blok perulangan": false,
+      "Statement setelah continue tidak akan dijalankan": false,
+      "Continue digunakan untuk melanjutkan ke proses perulangan berikutnya":
+          false,
+      "Statement setelah break tetap akan dijalankan": true,
     },
   ),
   QuestionModel(
-    "What is the averge nulber of kittens in a litter ?",
+    "Diantara pernyataan berikut, konsep yang tidak ada di dalam pemrograman Java adalah…",
     {
-      "1 to 2": false,
-      "3 to 5": true,
-      "8 to 10": false,
-      "12 to 14": false,
+      "Polymorphisme": false,
+      "Multiple inheritance": true,
+      "Encapsulation": false,
+      "Single Inheritance": false,
     },
   ),
   QuestionModel(
-    "How many moons does Mars have ?",
+    "Apa yang akan tercetak dari hasil penggalan program berikut ini:"
+    "int All;"
+    "int a=2, b=3, c=6, d=5;"
+    "All = b * d - c / a + b;"
+    "System.out.print (“All:”+All);",
     {
-      "1": false,
-      "2": false,
-      "4": true,
-      "8": false,
+      "All:14": false,
+      "All:10": false,
+      "All:15": true,
+      "All: 9": false,
     },
   ),
   QuestionModel(
-    "What is Mars's nickname ?",
+    "Perhatikan penggalan source code dibawah ini"
+    "if ( grade > 70 )"
+    "System.out.println(“Passed”);"
+    "else"
+    "System.out.println(“Failed”);"
+    "Jika penggalan program diatas diubah dengan menggunakan operator kondisi maka hasilnya akan menjadi …",
     {
-      "The red planet": true,
-      "The dusty planet": false,
-      "The hot planet": false,
-      "The smelly planet": false,
+      "System.out.println( grade > 70 ? “Passed” : “Failed” )": true,
+      "System.out.println( ? grade > 70 “Passed” : “Failed” )": false,
+      "System.out.println( grade > 70 : “Passed” ? “Failed” )": false,
+      "System.out.println( grade > 70 ? “Passed” ? : “Failed” )": false,
     },
   ),
   QuestionModel(

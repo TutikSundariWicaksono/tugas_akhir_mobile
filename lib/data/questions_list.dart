@@ -2,103 +2,93 @@ import 'package:tugas_akhir_mobile/model/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(
-    "Berikut ini pernyataan yang benar berhubungan dengan class dan object dalam Java, kecuali…",
+    "Flutter merupakan framework yang bersifat...",
     {
-      "Setiap class dapat mengandung beberapa method sekaligus": false,
-      "Object terdiri dari keyword dan method": false,
-      "Object merupakan instance dari class": true,
-      "Class merupakan pendefinisian dari object": false,
+      "Close Source": false,
+      "Berbayar": false,
+      "Open Source": true,
+      "Berlisensi": false,
     },
   ),
   QuestionModel(
-    "Berikut ini adalah pernyataan yang benar berhubungan dengan break dan continue, kecuali…",
+    "Fitur yang beradadi flutter dimana kodingan kamu bisa langsung muncul di hp maupun di emulator disebut...",
     {
-      "Break digunakan untuk keluar dari blok perulangan": false,
-      "Statement setelah continue tidak akan dijalankan": false,
-      "Continue digunakan untuk melanjutkan ke proses perulangan berikutnya":
-          false,
-      "Statement setelah break tetap akan dijalankan": true,
+      "Refresh": false,
+      "Reload": false,
+      "Hot Loading": false,
+      "Hot Reload": true,
     },
   ),
   QuestionModel(
-    "Diantara pernyataan berikut, konsep yang tidak ada di dalam pemrograman Java adalah…",
+    "Widget dinamis yang terdapat pada Flutter disebut ?",
     {
-      "Polymorphisme": false,
-      "Multiple inheritance": true,
-      "Encapsulation": false,
-      "Single Inheritance": false,
+      "Container": false,
+      "StateFull Widget": true,
+      "Stateless Widget": false,
+      "Material App": false,
     },
   ),
   QuestionModel(
-    "Apa yang akan tercetak dari hasil penggalan program berikut ini:"
-    "int All;"
-    "int a=2, b=3, c=6, d=5;"
-    "All = b * d - c / a + b;"
-    "System.out.print (“All:”+All);",
+    "Merupakan sebuah widget yang digunakkan untuk membuat tampilan dasar material design pada aplikasi Flutter, dapat disebut juga sebagai dasar sebuah halaman pada aplikasi Flutter...",
     {
-      "All:14": false,
-      "All:10": false,
-      "All:15": true,
-      "All: 9": false,
+      "Material Apps": false,
+      "Stateless Widget": false,
+      "Scaffold": true,
+      "AppBar": false,
     },
   ),
   QuestionModel(
-    "Perhatikan penggalan source code dibawah ini"
-    "if ( grade > 70 )"
-    "System.out.println(“Passed”);"
-    "else"
-    "System.out.println(“Failed”);"
-    "Jika penggalan program diatas diubah dengan menggunakan operator kondisi maka hasilnya akan menjadi …",
+    "Manakah dari properti berikut ini yang harus digunakkan untuk menambahkan label, ikon, dan teks petunjuk sebaris widget TextField...",
     {
-      "System.out.println( grade > 70 ? “Passed” : “Failed” )": true,
-      "System.out.println( ? grade > 70 “Passed” : “Failed” )": false,
-      "System.out.println( grade > 70 : “Passed” ? “Failed” )": false,
-      "System.out.println( grade > 70 ? “Passed” ? : “Failed” )": false,
+      "InputDecoration": true,
+      "ListView": false,
+      "SizedBox": false,
+      "Scaffold": false,
     },
   ),
   QuestionModel(
-    "About How long would it take to travel to Mars ?",
+    "Sebelum memulai membuat aplikasi menggunakkan flutter, agar aplikasi dapat berjalan dengan lancar maka kita harus mengecek...",
     {
-      "Three days": false,
-      "A month": false,
-      "Eight months": true,
-      "Two years": false,
+      "Dart": false,
+      "Class": false,
+      "Flutter Doctor": true,
+      "C-Style": false,
     },
   ),
   QuestionModel(
-    "Mars is Named after the Roman god Mars. What is he the god of ?",
+    "Contoh penggunaan stateful widget adalah...",
     {
-      "Fire": false,
-      "Love": false,
-      "Agriculture": false,
-      "War": true,
+      "Text": false,
+      "Icon": false,
+      "Radio Button": false,
+      "Check Box": true,
     },
   ),
   QuestionModel(
-    "Mars Is the ___ planet from the sun ?",
+    "What are build models in Flutter",
     {
-      "Secon": false,
-      "Third": false,
-      "Fourth": true,
-      "Sixth": false,
+      "Debug": false,
+      "Profile": false,
+      "All The Box": true,
+      "Release": false,
     },
   ),
   QuestionModel(
-    "Where did Orville and Wilbur Wright build their first flying airplane ?",
+    "Flutter uses which programing language?",
     {
-      "Paris, France": false,
-      "Boston, Massachusetts": false,
-      "Kitty Hawk, North Carolina": true,
-      "Tokyou, Japan": false,
+      "Phyton": false,
+      "Java": false,
+      "Dart": true,
+      "Kotlin": false,
     },
   ),
   QuestionModel(
-    "The First astronuts to travel to space came from which country ?",
+    "What is the widget used to call an App bar?",
     {
-      "United States": false,
-      "Soviet Union (now Russia)": true,
-      "China": false,
-      "Rocketonia": false,
+      "App()": false,
+      "AppBar()": true,
+      "TopBar()": false,
+      "Header()": false,
     },
   ),
 ];

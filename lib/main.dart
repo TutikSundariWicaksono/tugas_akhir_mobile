@@ -1,18 +1,40 @@
-import 'package:tugas_akhir_mobile/screens/main_menu.dart';
 import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
+
+import 'pages/splash_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(LoginUiApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class LoginUiApp extends StatelessWidget {
+  Color _primaryColor = HexColor('#DC54FE');
+  Color _accentColor = HexColor('#8A02AE');
 
+  // Design color
+  // Color _primaryColor= HexColor('#FFC867');
+  // Color _accentColor= HexColor('#FF3CBD');
+
+  // Our Logo Color
+  // Color _primaryColor= HexColor('#D44CF6');
+  // Color _accentColor= HexColor('#5E18C8');
+
+  // Our Logo Blue Color
+  //Color _primaryColor= HexColor('#651BD2');
+  //Color _accentColor= HexColor('#320181');
+
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const MainMenu(),
+      title: 'ASIK',
+      theme: ThemeData(
+        primaryColor: _primaryColor,
+        scaffoldBackgroundColor: Colors.grey.shade100,
+        primarySwatch: Colors.grey,
+      ),
+      home: SplashScreen(title: 'ASIK'),
     );
   }
 }

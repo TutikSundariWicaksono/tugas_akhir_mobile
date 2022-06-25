@@ -109,7 +109,7 @@ class _LoginPageState extends State<LoginPage> {
                                 decoration:
                                     ThemeHelper().inputBoxDecorationShaddow(),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 20.0,
                               ),
                               Container(
@@ -122,7 +122,7 @@ class _LoginPageState extends State<LoginPage> {
                                         EdgeInsets.fromLTRB(40, 10, 40, 10),
                                     child: Text(
                                       'Sign In'.toUpperCase(),
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white),
@@ -138,9 +138,9 @@ class _LoginPageState extends State<LoginPage> {
                                 margin: EdgeInsets.fromLTRB(10, 20, 10, 20),
                                 //child: Text('Don\'t have an account? Create'),
                                 child: Text.rich(TextSpan(children: [
-                                  TextSpan(
+                                  const TextSpan(
                                     text: "Don\'t have an account? ",
-                                    style: const TextStyle(
+                                    style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         color: Colors.white),
                                   ),

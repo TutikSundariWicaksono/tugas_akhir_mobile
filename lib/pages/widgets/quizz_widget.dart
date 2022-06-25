@@ -1,6 +1,6 @@
+import 'package:tugas_akhir_mobile/models/question_model.dart';
+import 'package:tugas_akhir_mobile/ui/shared/color.dart';
 import 'package:flutter/material.dart';
-import '../model/question_model.dart';
-import '../ui/shared/color.dart';
 
 Widget questionWidget(
     QuestionModel questionModel, void Function() function, bool presed) {

@@ -1,13 +1,11 @@
 import 'package:tugas_akhir_mobile/screens/quizz_screen.dart';
+import 'package:tugas_akhir_mobile/ui/shared/color.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import '../ui/shared/color.dart';
 
 class MainMenu extends StatefulWidget {
-  const MainMenu({Key? key}) : super(key: key);
 
   @override
-  _MainMenuState createState() => _MainMenuState();
+  State<MainMenu> createState() => _MainMenuState();
 }
 
 class _MainMenuState extends State<MainMenu> {
@@ -25,7 +23,7 @@ class _MainMenuState extends State<MainMenu> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
-              height: 200,
+              height: 300,
             ),
             const Center(
               child: Text(
@@ -37,23 +35,24 @@ class _MainMenuState extends State<MainMenu> {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-            ),
-            Container(
-              child: TextField(
-                decoration: InputDecoration(
-                  hintText: 'Enter your name',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  hintStyle: TextStyle(color: Colors.white),
-                ),
-              ),
-            ),
+            // SizedBox(
+            //   height: 150,
+            // ),
+            // Container(
+            //   child: TextField(
+            //     decoration: InputDecoration(
+            //       hintText: 'Enter your name',
+            //       border: OutlineInputBorder(
+            //         borderRadius: BorderRadius.circular(10),
+            //       ),
+            //       focusedBorder: OutlineInputBorder(
+            //         borderRadius: BorderRadius.circular(10),
+            //       ),
+            //       hintStyle: TextStyle(color: Colors.white),
+            //     ),
+            //   ),
+            // ),
+
             Expanded(
               child: Center(
                 child: RawMaterialButton(
@@ -84,7 +83,7 @@ class _MainMenuState extends State<MainMenu> {
             ),
             const Center(
               child: Text(
-                "Made as Final Project for Mobile Class ",
+                "Dibuat Sebagai Tugas Akhir Matakuliah Mobile",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,

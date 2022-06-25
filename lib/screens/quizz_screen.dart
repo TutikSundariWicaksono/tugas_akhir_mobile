@@ -1,15 +1,13 @@
 import 'package:tugas_akhir_mobile/data/questions_list.dart';
+import 'package:tugas_akhir_mobile/screens/result_screen.dart';
 import 'package:tugas_akhir_mobile/ui/shared/color.dart';
 import 'package:flutter/material.dart';
-import 'package:tugas_akhir_mobile/screens/result_screen.dart';
-import 'package:tugas_akhir_mobile/widgets/quizz_widget.dart';
-import 'package:tugas_akhir_mobile/model/question_model.dart';
 
 class QuizzScreen extends StatefulWidget {
   const QuizzScreen({Key? key}) : super(key: key);
 
   @override
-  _QuizzScreenState createState() => _QuizzScreenState();
+  State<QuizzScreen> createState() => _QuizzScreenState();
 }
 
 class _QuizzScreenState extends State<QuizzScreen> {

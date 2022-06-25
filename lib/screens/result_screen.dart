@@ -1,7 +1,6 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:tugas_akhir_mobile/screens/main_menu.dart';
-import '../ui/shared/color.dart';
+import 'package:tugas_akhir_mobile/ui/shared/color.dart';
+import 'package:flutter/material.dart';
 
 class ResultScreen extends StatefulWidget {
   final int score;

@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xFF252c4a),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -73,12 +73,14 @@ class _LoginPageState extends State<LoginPage> {
                       20, 10, 20, 10), // This will be the login form
                   child: Column(
                     children: [
-                      Text(
+                      const Text(
                         'Hello',
                         style: TextStyle(
-                            fontSize: 60, fontWeight: FontWeight.bold),
+                            fontSize: 60,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
                       ),
-                      Text(
+                      const Text(
                         'Signin into your account',
                         style: TextStyle(color: Colors.grey),
                       ),
@@ -136,7 +138,12 @@ class _LoginPageState extends State<LoginPage> {
                                 margin: EdgeInsets.fromLTRB(10, 20, 10, 20),
                                 //child: Text('Don\'t have an account? Create'),
                                 child: Text.rich(TextSpan(children: [
-                                  TextSpan(text: "Don\'t have an account? "),
+                                  TextSpan(
+                                    text: "Don\'t have an account? ",
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white),
+                                  ),
                                   TextSpan(
                                     text: 'Create',
                                     recognizer: TapGestureRecognizer()
@@ -147,9 +154,9 @@ class _LoginPageState extends State<LoginPage> {
                                                 builder: (context) =>
                                                     RegistrationPage()));
                                       },
-                                    style: TextStyle(
+                                    style: const TextStyle(
                                         fontWeight: FontWeight.bold,
-                                        color: Theme.of(context).accentColor),
+                                        color: Colors.white),
                                   ),
                                 ])),
                               ),

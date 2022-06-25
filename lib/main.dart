@@ -28,13 +28,13 @@ class LoginUiApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'ASIK',
+      title: 'SiQApp',
       theme: ThemeData(
         primaryColor: _primaryColor,
         scaffoldBackgroundColor: Colors.grey.shade100,
         primarySwatch: Colors.grey,
       ),
-      home: SplashScreen(title: 'ASIK'),
+      home: SplashScreen(title: 'SiQApp'),
     );
   }
 }

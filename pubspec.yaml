@@ -42,6 +42,10 @@ dependencies:
   internet_connection_checker: ^0.0.1+3
   carousel_slider: ^4.1.1
   fluttertoast: ^8.0.9
+<<<<<<< HEAD
+=======
+  font_awesome_flutter: ^10.1.0
+>>>>>>> 12b7ceea67e09d26ce25add6a00da3e678940d98
 
 dev_dependencies:
   flutter_test:
